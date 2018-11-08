@@ -1,0 +1,1 @@
+on command line use "node main.js" to execute
