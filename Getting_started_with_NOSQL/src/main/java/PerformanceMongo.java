@@ -30,7 +30,8 @@ public class PerformanceMongo {
 			final MongoCollection<Document> c = db.getCollection("MOVIES");
 			final JSONParser jp = new JSONParser();
 			final JSONArray arr = (JSONArray) jp
-					.parse(new FileReader(new File("E:\\Programming\\WS\\\\Getting_started_with_NOSQL\\src\\main\\resources\\moviedata.json")));
+					.parse(new FileReader(
+							new File("E:\\Programming\\Repo\\GenericCompScience\\Getting_started_with_NOSQL\\src\\main\\resources\\moviedata.json")));
 
 			// insert
 			long t = System.currentTimeMillis();
